@@ -117,11 +117,6 @@ h5 {
     text-align: center;
 }
 
-
-
-
-
-
 #pokemon-list {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
@@ -267,8 +262,6 @@ h5 {
 }
 
 
-/* --- Estilos para as Barras de Estatísticas (Stats) --- */
-
 .stat-bar-container {
     display: flex;
     align-items: center;
@@ -277,7 +270,7 @@ h5 {
 }
 
 .stat-name {
-    flex-basis: 90px; /* Largura fixa para o nome da estatística */
+    flex-basis: 90px; 
     text-align: left;
     font-weight: bold;
     color: #444;
@@ -290,12 +283,12 @@ h5 {
     border-radius: 4px;
     margin-left: 10px;
     position: relative;
-    overflow: hidden; /* Garante que a barra interna não ultrapasse */
+    overflow: hidden; 
 }
 
 .bar-fill {
     height: 100%;
-    background-color: #3b4cca; /* Cor de preenchimento (Azul Pokémon) */
+    background-color: #3b4cca; 
     border-radius: 4px;
     transition: width 0.5s ease;
 }
@@ -307,7 +300,7 @@ h5 {
     transform: translateY(-50%);
     color: #000;
     font-weight: bold;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.7); /* Pequena sombra para legibilidade */
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.7); 
 }
 
 .pokemon-card h3 {
